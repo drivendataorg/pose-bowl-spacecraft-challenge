@@ -1,0 +1,5 @@
+names:
+  0: spacecraft0
+path: /home/gnas/Spacecraft_Detection/datasets/
+train: train/
+val: val/

@@ -1,0 +1,7 @@
+curl
+libxml2
+tzdata
+wget
+zip
+parallel
+python3-opencv

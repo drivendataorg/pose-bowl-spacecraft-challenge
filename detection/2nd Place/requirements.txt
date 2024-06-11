@@ -1,0 +1,14 @@
+albumentations==1.4.2
+imageio==2.34.0
+matplotlib==3.8.3
+numpy==1.26.4
+onnx==1.16.0
+opencv-python==4.9.0.80
+openvino==2024.0.0
+pandas==2.1.4
+pillow
+protobuf==5.26.1
+scikit-image==0.22.0
+tqdm==4.66.2
+ultralytics==8.1.40
+dill==0.3.8

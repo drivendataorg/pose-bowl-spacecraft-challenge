@@ -1,0 +1,4 @@
+Nano and Medium
+pip install ultralytics==8.1.34
+Small
+pip install ultralytics==8.1.47

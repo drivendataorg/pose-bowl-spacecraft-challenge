@@ -1,0 +1,35 @@
+dataset
+├──drivendata
+│   ├── images
+│   │   ├── 0001954c9f4a58f7ac05358b3cda8d20.png
+│   │   ├── 00054819240f9d46378288b215dbcd3a.png
+│   │   ...
+│   ├── no_background
+│   │   ├── images
+│   │   │   ├── 002d0a840b5ce27cc3951fef9c54e886.png
+│   │   │   ├── 0030c81bb5aaadca61351891a147a0a3.png
+│   │   │   ...
+│   │   └── no_background.csv
+│   ├── train_labels.csv
+│   └── train_metadata.csv
+└── satellite_external
+    ├── images
+    │   ├── train
+    │   │   ├── img_resize_0.png
+    │   │   ├── img_resize_1.png
+    │   │   ...
+    │   └── val
+    │       ├── img_resize_1000.png
+    │       ├── img_resize_1001.png
+    |       ...
+    ├── mask
+    │   ├── train
+    │   │   ├── img_resize_0_mask.png
+    │   │   ├── img_resize_1003_mask.png
+    │   │   ...
+    │   └── val
+    │       ├── img_resize_1000_mask.png
+    │       ├── img_resize_1001_mask.png
+    │       ...
+    └── all_bbox.txt
+
