@@ -18,7 +18,7 @@ This challenge had two tracks:
 
 This repository contains code from winning competitors in the [Pose Bowl: Spacecraft Detection and Pose Estimation Challenge](https://space-inspection.drivendata.org/) on DrivenData. Code for all winning solutions are open source under the MIT License.
 
-Solution code for the two tracks can be found in the `object-detection/` and `pose-estimation/` subdirectories, respectively. Additional solution details can be found in the `reports` folder inside the directory for each submission.
+Solution code for the two tracks can be found in the `detection/` and `pose-estimation/` subdirectories, respectively. Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
 **Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).**
 
