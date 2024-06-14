@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.1.4
+opencv-python-headless>=4.9.0
+scikit-image==0.22.0
+scikit-learn==1.2.2
+scipy==1.11.4
+tqdm==4.66.2
+transformers==4.38.1
+mathutils==3.3.0
