@@ -36,7 +36,7 @@ Place | Team or User | Public Score | Private Score | Summary of Model
 
 Place | Team or User | Public Score | Private Score | Summary of Model
 --- | --- | ---   | ---   | ---
-1   |     |       |       | {Description from the 1st place's writeup}
+1   |     |       |       | Uses OpenCV's ORB and AKAZE feature detection with brute force matching between images and homography calculations to generate inter-image rotations as features. Ensemble of fine-tuned Chronos-T5 models uses OpenCV rotations and range values to estimate pose.
 2   |     |       |       | {Description from the 2nd place's writeup}
 3   |     |       |       | {Description from the 3rd place's writeup}
 
