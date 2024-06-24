@@ -26,22 +26,22 @@ Solution code for the two tracks can be found in the `detection/` and `pose-esti
 
 ### Detection Track
 
-Place | Team or User | Public Score | Private Score | Summary of Model
---- | --- | ---   | ---   | ---
-1   |     |       |       | {Description from the 1st place's writeup}
-2   |     |       |       | {Description from the 2nd place's writeup}
-3   |     |       |       | {Description from the 3rd place's writeup}
+| Place | Team or User  | Public Score | Private Score | Summary of Model                           |
+|-------|---------------|--------------|---------------|--------------------------------------------|
+| 1     | Polynome team | 0.9330       | 0.9261        | {Description from the 1st place's writeup} |
+| 2     | dungnb        | 0.9300       | 0.9226        | {Description from the 2nd place's writeup} |
+| 3     | agastya       | 0.9168       | 0.9141        | {Description from the 3rd place's writeup} |
 
 ### Pose Estimation Track
 
-Place | Team or User | Public Score | Private Score | Summary of Model
---- | --- | ---   | ---   | ---
-1   | dylanliu | 1.9312 | 1.9026 | Uses OpenCV's ORB and AKAZE feature detection with brute force matching between images and homography calculations to generate inter-image rotations as features. Ensemble of fine-tuned Chronos-T5 models uses OpenCV rotations and range values to estimate pose.
-2   |     |       |       | {Description from the 2nd place's writeup}
-3   |     |       |       | {Description from the 3rd place's writeup}
+| Place | Team or User       | Public Score | Private Score | Summary of Model                                                                                                                                                                                                                                                    |
+|-------|--------------------|--------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | dylanliu           | 1.9312       | 1.9026        | Uses OpenCV's ORB and AKAZE feature detection with brute force matching between images and homography calculations to generate inter-image rotations as features. Ensemble of fine-tuned Chronos-T5 models uses OpenCV rotations and range values to estimate pose. |
+| 2     | ouranos            | 1.9024       | 1.9311        | {Description from the 2nd place's writeup}                                                                                                                                                                                                                          |
+| 3     | OrbitSpinners team | 2.0016       | 1.9466        | {Description from the 3rd place's writeup}                                                                                                                                                                                                                          |
 
 ---
 
-**Winners Blog Post: [{winners-blog-post-title}]({winners-blog-post-url})**
+**Winners Blog Post: TBD**
 
-**Benchmark Blog Post: [{benchmark-blog-post-title}]({benchmark-blog-post-url})**
+**Benchmark Blog Post: TBD**
