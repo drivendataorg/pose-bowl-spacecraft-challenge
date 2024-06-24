@@ -1,0 +1,15 @@
+path: /home/dungnb/workspace/challenge/drivendata/Pose-Bowl-Spacecraft-Detection/dataset/
+train:
+  - synthetic_data/randmix/train.txt
+  - synthetic_data/randmix_small/train.txt
+  - synthetic_data/randmix_big/train.txt
+  - synthetic_data/randmix_max_size/train.txt
+  - synthetic_data/add_antenna/train.txt
+  - drivendata/val.txt
+  - drivendata/train.txt
+  - satellite_external/train_val.txt
+val: drivendata/val.txt
+
+# Classes
+names:
+  0: sc
