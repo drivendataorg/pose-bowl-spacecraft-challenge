@@ -43,7 +43,7 @@ The code for the solution is contained in [`example_src/`](./example_src/) folde
 
 ---
 
-> ![NOTE]
+> [!NOTE]
 > The following documentation is a modified copy of the "Quickstart" instructions from the README in [drivendataorg/spacecraft-pose-pose-estimation-runtime](https://github.com/drivendataorg/spacecraft-pose-pose-estimation-runtime). Credit for the original documentation belongs to DrivenData.
 >
 > The contents of `runtime/`, `scripts/`, and `Makefile` are also copied from that repository. See [LICENSE-THIRD-PARTY](./LICENSE-THIRD-PARTY).
@@ -87,7 +87,7 @@ Later in this guide, when we launch a Docker container from your computer (or th
 
 ### The quickstart example
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > The source code from the [original quickstart example](https://github.com/drivendataorg/spacecraft-pose-pose-estimation-runtime/tree/main/example_src) has been replaced with the source code for this solution.
 >
 > `main.sh` is the main entrypoint that is run when running the container.
