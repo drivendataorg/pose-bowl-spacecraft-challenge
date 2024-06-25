@@ -2,7 +2,6 @@ import argparse
 
 from ultralytics import YOLO
 
-
 if __name__ == "__main__":
     # Create the argument parser
     parser = argparse.ArgumentParser(description="Train a YOLOv8 model")

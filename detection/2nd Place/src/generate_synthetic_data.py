@@ -1,11 +1,12 @@
-import pandas as pd
-import numpy as np
+import json
 import os
-from tqdm import tqdm
 import random
 from multiprocessing import Pool
-import json
-from utils import Item, randmix, randmix_small, randmix_big, randmix_max_size, add_antenna
+
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
+from utils import Item, add_antenna, randmix, randmix_big, randmix_max_size, randmix_small
 
 if __name__ == "__main__":
     bg_dict = {}

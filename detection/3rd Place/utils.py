@@ -1,7 +1,8 @@
-from numba import jit
+import random
+
 import cv2
 import numpy as np
-import random
+from numba import jit
 
 __all__ = [
     "coco2yolo",

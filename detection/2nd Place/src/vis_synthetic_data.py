@@ -1,6 +1,7 @@
 import os
-import cv2
 import random
+
+import cv2
 
 if __name__ == "__main__":
     num_images = 10

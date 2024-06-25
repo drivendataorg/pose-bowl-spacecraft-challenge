@@ -3,6 +3,9 @@ extend-include = ["*.ipynb"]
 line-length = 120
 
 [tool.ruff.lint]
+extend-select = [
+    "I",
+]
 ignore = [
     "E741",
 ]

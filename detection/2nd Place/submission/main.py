@@ -2,11 +2,11 @@ import os
 from pathlib import Path
 
 import click
+import numpy as np
 import pandas as pd
 from loguru import logger
 from tqdm import tqdm
 from ultralytics import YOLO
-import numpy as np
 
 
 @click.command()

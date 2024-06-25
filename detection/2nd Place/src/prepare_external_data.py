@@ -1,9 +1,10 @@
-import pandas as pd
-import numpy as np
-import os
-import cv2
-from tqdm import tqdm
 import json
+import os
+
+import cv2
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
 
 
 def bb_iou(boxA, boxB):

@@ -3,11 +3,11 @@ from pathlib import Path
 
 import click
 import cv2
+import openvino
 import pandas as pd
 from loguru import logger
 from tqdm import tqdm
 from ultralytics import YOLO
-import openvino
 
 print(openvino.__version__)
 
