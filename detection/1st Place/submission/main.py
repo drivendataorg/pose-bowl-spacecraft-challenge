@@ -113,7 +113,7 @@ def main(data_dir, output_path):
                 _anybox = init_bbox.copy()
                 scale = 0.75
                 init_bbox = expand_region(init_bbox, w, h, scale=scale)
-                new_img = img[init_bbox[1]: init_bbox[3], init_bbox[0]: init_bbox[2], :]
+                new_img = img[init_bbox[1] : init_bbox[3], init_bbox[0] : init_bbox[2], :]
                 result2 = model2(new_img, verbose=False, imgsz=640, conf=0.1)[0]
                 if len(result2.boxes) > 0:
                     bbox = result2.boxes.xyxy[0].tolist()
@@ -139,7 +139,7 @@ def main(data_dir, output_path):
                     else:
                         scale = 0.75
                         init_bbox = expand_region(init_bbox, w, h)
-                        new_img = img[init_bbox[1]: init_bbox[3], init_bbox[0]: init_bbox[2], :]
+                        new_img = img[init_bbox[1] : init_bbox[3], init_bbox[0] : init_bbox[2], :]
                         result2 = model2(new_img, verbose=False, imgsz=640, conf=0.1)[0]
                         result3 = model2(cv2.flip(new_img, 1), verbose=False, imgsz=640, conf=0.1)[0]
                         if len(result2.boxes) > 0:
@@ -181,7 +181,7 @@ def main(data_dir, output_path):
                         bbox = init_bbox.copy()
                     else:
                         init_bbox = expand_region(init_bbox, w, h)
-                        new_img = img[init_bbox[1]: init_bbox[3], init_bbox[0]: init_bbox[2], :]
+                        new_img = img[init_bbox[1] : init_bbox[3], init_bbox[0] : init_bbox[2], :]
                         result = model2(new_img, verbose=False, imgsz=640, conf=0.1)[0]
                         if len(result.boxes) > 0:
                             bbox = result.boxes.xyxy[0].tolist()
