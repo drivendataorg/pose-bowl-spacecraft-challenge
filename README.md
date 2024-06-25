@@ -36,9 +36,9 @@ Solution code for the two tracks can be found in the `detection/` and `pose-esti
 
 | Place | Team or User       | Public Score | Private Score | Summary of Model                                                                                                                                                                                                                                                    |
 |-------|--------------------|--------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | dylanliu           | 1.9312       | 1.9026        | Generates ORB and AKAZE features for each image and performs feature matching using OpenCV's Brute-Force matcher. Uses OpenCV homography calculation to generate inter-image rotations as features. Pose is estimated using an ensemble of fine-tuned Chronos-T5 models using inter-image rotations and range values as features. |
+| 1     | dylanliu           | 1.9312       | 1.9026        | Generates ORB and AKAZE features for each image and performs feature matching using OpenCV's Brute-Force matcher. Uses RANSAC to estimate homographic rotations as features. Relative pose is estimated using an ensemble of fine-tuned Chronos-T5 models using rotations and range values as features. |
 | 2     | ouranos            | 1.9024       | 1.9311        | First uses a fine-tuned YOLOv8 object detection model to the center of the target spacecraft. Then uses a fine-tuned Siamese network with EfficientNetB0 backbone to estimate pose given a target image and the reference image. |
-| 3     | OrbitSpinners team | 2.0016       | 1.9466        | Generates SIFT features for each image and performs feature matching using OpenCV's Brute-Force matcher. Using the matches, the relative pose is calculated using Graph-cut RANSAC. |
+| 3     | OrbitSpinners team | 2.0016       | 1.9466        | Generates SIFT features for each image and performs feature matching using OpenCV's Brute-Force matcher. Using the matches, the relative pose is calculated using USAC-ACCURATE (graph-cut RANSAC variation). |
 
 ---
 
