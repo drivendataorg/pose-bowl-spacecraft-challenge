@@ -1,6 +1,6 @@
 # 2nd Place Solution — Pose Bowl: Pose Estimation Track
 
-<img src="assets/pose-estimate-tile_s.png" alt="spacecraft"  width=400/>
+<img src="https://drivendata-public-assets.s3.amazonaws.com/pose-estimate-tile_.png" alt="spacecraft"  width=400/>
 
 <small>Image courtesy of NASA/NTL</small>
 
