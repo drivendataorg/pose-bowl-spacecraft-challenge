@@ -1,5 +1,7 @@
 # Pose-Bowl-Spacecraft-Detection
 
+![Alt text](./images/nasa-spacecraft-header.jpg?raw=true "Optional Title")
+
 2nd place solution for [Pose Bowl: Spacecraft Detection Challenge](https://www.drivendata.org/competitions/260/spacecraft-detection/leaderboard/)
 
 ### General
@@ -10,6 +12,7 @@
 * **Competition link:** https://www.drivendata.org/competitions/260/spacecraft-detection/
 * **Placement:** 2nd (2/651)
 * **User Name:** dungnb
+* **Solution:** [SolutionDocumentation_SpacecraftDetection_DungNB.pdf](https://github.com/dungnb1333/Pose-Bowl-Spacecraft-Detection/blob/main/report/SolutionDocumentation_SpacecraftDetection_DungNB.pdf)
 
 The key of solution is based on synthetic data generation and yolov8 model.
 
@@ -31,11 +34,11 @@ pip install -r requirements.txt
 ```
 
 ### Data preparation
-- Download [competition dataset](https://www.drivendata.org/competitions/260/spacecraft-detection/data/) and extract to folder [./dataset/drivendata](dataset/drivendata)
-- Download public dataset in [paper](https://openaccess.thecvf.com/content/CVPR2021W/AI4Space/papers/Dung_A_Spacecraft_Dataset_for_Detection_Segmentation_and_Parts_Recognition_CVPRW_2021_paper.pdf) at [repo](https://github.com/Yurushia1998/SatelliteDataset) or [google drive](https://drive.google.com/drive/u/0/folders/1Q1wR9aBFCyeFEYa3wwyXNu9wk_fZdzUm) to folder [./dataset/satellite_external](dataset/satellite_external)\
+- Download [competition dataset](https://www.drivendata.org/competitions/260/spacecraft-detection/data/) and extract to folder [./dataset/drivendata](./dataset/drivendata)
+- Download public dataset in [paper](https://openaccess.thecvf.com/content/CVPR2021W/AI4Space/papers/Dung_A_Spacecraft_Dataset_for_Detection_Segmentation_and_Parts_Recognition_CVPRW_2021_paper.pdf) at [repo](https://github.com/Yurushia1998/SatelliteDataset) or [google drive](https://drive.google.com/drive/u/0/folders/1Q1wR9aBFCyeFEYa3wwyXNu9wk_fZdzUm) to folder [./dataset/satellite_external](./dataset/satellite_external)\
 Note: This data has been confirmed at [discussion](https://community.drivendata.org/t/external-dataset-use-detection-track/10642)
 
-- dataset structure should be [./dataset/dataset_structure.txt](dataset/dataset_structure.txt)
+- dataset structure should be [./dataset/dataset_structure.txt](./dataset/dataset_structure.txt)
 
 And run following scripts
 
@@ -47,7 +50,7 @@ python generate_synthetic_data.py
 ```
 
 ### Train model
-Change line 1 in file [./src/spacecraft_data.yaml](https://github.com/dungnb1333/Pose-Bowl-Spacecraft-Detection/blob/main/src/spacecraft_data.yaml?plain=1#L1) to **absolute path** of folder [./dataset/](dataset) in your system
+Change line 1 in file [./src/spacecraft_data.yaml](https://github.com/dungnb1333/Pose-Bowl-Spacecraft-Detection/blob/main/src/spacecraft_data.yaml?plain=1#L1) to **absolute path** of folder [./dataset/](./dataset) in your system
 
 And run following scripts
 ```shell
