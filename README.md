@@ -44,6 +44,6 @@ Solution code for the two tracks can be found in the `detection/` and `pose-esti
 
 ---
 
-**Winners Blog Post: TBD**
+**Winners Blog Post: [https://drivendata.co/blog/posebowl-winners](https://drivendata.co/blog/posebowl-winners)**
 
-**Benchmark Blog Post: TBD**
+**Benchmark Blog Post: [https://drivendata.co/blog/nasa-pose-bowl-object-detection-benchmark](https://drivendata.co/blog/nasa-pose-bowl-object-detection-benchmark)**
