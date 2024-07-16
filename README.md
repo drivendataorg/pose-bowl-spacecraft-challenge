@@ -7,7 +7,7 @@
 
 ## Goal of the Competition
 
-Inspector spacecraft, like NASA’s Seeker, are designed to conduct low-cost in-space inspections of other ships. Inspector spacecraft have limited computing resources, but complex computing demands.
+Inspector spacecraft, like NASA’s Seeker, are designed to conduct low-cost in-space inspections of other ships. They have limited computing resources, but complex computing demands.
 
 In this challenge, solvers helped NASA develop algorithms that could be run on inspector (chaser) spacecraft. There were two tracks, with different associated prizes.
 
