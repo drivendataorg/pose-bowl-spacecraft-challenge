@@ -63,7 +63,8 @@ python export_to_openvino.py
 ```
 
 ### Inference
-[Step by step to generate submission file](inference/README.md)
+
+The trained model assets should be exported to or copied to `submission/assets`. Then, follow the instructions in the [official runtime repository README](https://github.com/drivendataorg/spacecraft-pose-object-detection-runtime) with the `submission/` directory to generate the submission ZIP file.
 
 ### Result
 |              | Public LB | Private LB | Runtime |
